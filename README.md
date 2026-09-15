@@ -275,7 +275,7 @@ Os caminhos da aplicação são resolvidos com `pathlib` a partir da raiz do pro
 
 ## 16. Demonstração
 
-**Vídeo no YouTube:** link a adicionar após a gravação.
+**Vídeo no YouTube:** https://youtu.be/hHx6r9znYAw
 
 A demonstração poderá apresentar uma consulta válida, a exibição de dados e fontes, os tratamentos de entrada inválida/paciente inexistente e o teste determinístico de bloqueio já registrado no notebook `10`.
 
