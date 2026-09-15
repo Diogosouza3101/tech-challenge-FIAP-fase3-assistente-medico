@@ -1,0 +1,27 @@
+[
+    {
+        "id": "PROTO-001",
+        "titulo": "Avaliação inicial de alteração mamária suspeita",
+        "conteudo": "Pacientes com alteração mamária suspeita devem ter os achados clínicos e de imagem revisados pela equipe responsável. Quando houver achados inconclusivos ou suspeitos, o caso deve ser encaminhado para avaliação especializada e definição de exames complementares. O assistente de IA não deve emitir diagnóstico definitivo."
+    },
+    {
+        "id": "PROTO-002",
+        "titulo": "Histórico familiar e fatores de risco",
+        "conteudo": "Informações sobre histórico familiar de câncer de mama devem ser consideradas como parte da avaliação clínica. Casos com histórico familiar relevante devem ser destacados para revisão médica, sem que o sistema determine isoladamente a presença ou ausência de doença."
+    },
+    {
+        "id": "PROTO-003",
+        "titulo": "Exames pendentes",
+        "conteudo": "Antes da conclusão da análise, o sistema deve verificar se existem exames pendentes. Caso existam, deve informar essa condição e recomendar que o profissional responsável avalie a necessidade de sua realização."
+    },
+    {
+        "id": "PROTO-004",
+        "titulo": "Segurança na recomendação clínica",
+        "conteudo": "O assistente deve atuar exclusivamente como ferramenta de apoio à decisão. Não deve prescrever medicamentos, definir doses, emitir diagnóstico definitivo ou substituir a avaliação do profissional médico responsável."
+    },
+    {
+        "id": "PROTO-005",
+        "titulo": "Rastreabilidade da resposta",
+        "conteudo": "Toda resposta clínica produzida pelo assistente deve informar quais dados do paciente foram considerados e quais protocolos institucionais serviram de base para a resposta."
+    }
+]

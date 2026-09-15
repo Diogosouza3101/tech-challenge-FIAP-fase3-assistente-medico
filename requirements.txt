@@ -1,0 +1,29 @@
+# Inferência com o modelo base quantizado e o adapter existente
+# Build PyTorch/CUDA observado em fiap_fase3; veja a observação no README.
+torch==2.14.0+cu130
+transformers==5.17.0
+peft==0.20.0
+accelerate==1.15.0
+bitsandbytes==0.50.2
+
+# RAG e orquestração (integrações LangChain efetivamente importadas)
+langchain-core==1.6.3
+langchain-community==0.4.2
+langchain-huggingface==1.2.2
+langgraph==1.2.11
+sentence-transformers==6.0.1
+faiss-cpu==1.15.0
+streamlit==1.63.0
+
+# Preparação, consulta e avaliação nos notebooks
+pandas==3.0.5
+SQLAlchemy==2.0.52
+matplotlib==3.11.2
+
+# Utilizadas pelo notebook 05 de fine-tuning; instalar não executa treinamento
+datasets==5.0.1
+trl==1.13.0
+
+# Execução interativa dos notebooks
+jupyterlab==4.6.3
+ipykernel==7.3.0

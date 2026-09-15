@@ -1,0 +1,1 @@
+"""Validação da resposta gerada."""

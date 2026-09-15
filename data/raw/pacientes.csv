@@ -1,0 +1,5 @@
+﻿id_paciente,idade,sexo,historico_familiar,resultado_exame,exames_pendentes,status
+PAC001,52,F,Sim,Achado suspeito,Ultrassonografia complementar,Em investigação
+PAC002,44,F,Não,Sem alterações suspeitas,Nenhum,Acompanhamento
+PAC003,61,F,Sim,Achado inconclusivo,Avaliação especializada,Em investigação
+PAC004,39,F,Não,Achado benigno,Nenhum,Acompanhamento

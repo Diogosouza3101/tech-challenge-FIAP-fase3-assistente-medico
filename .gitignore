@@ -1,0 +1,63 @@
+# Python e caches de ferramentas
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# Ambientes locais
+.venv/
+venv/
+env/
+envs/
+.conda/
+
+# Logs e arquivos temporários
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Cache local de modelos, embeddings e pacotes
+.cache/
+.huggingface/
+huggingface/
+hf_cache/
+.hf_cache/
+hub/
+
+# Configurações locais e segredos
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Models: permitir somente os metadados/tokenizer do adapter conhecido.
+# Pesos, checkpoints e futuros downloads permanecem locais por padrão.
+/models/*
+!/models/qwen2.5-3b-medical-lora/
+/models/qwen2.5-3b-medical-lora/*
+!/models/qwen2.5-3b-medical-lora/adapter_config.json
+!/models/qwen2.5-3b-medical-lora/tokenizer.json
+!/models/qwen2.5-3b-medical-lora/tokenizer_config.json
+!/models/qwen2.5-3b-medical-lora/chat_template.jinja
+!/models/qwen2.5-3b-medical-lora/README.md
+
+# Notebooks, data/ (incluindo hospital.db), resultados CSV e images/
+# são preservados para demonstração e avaliação do projeto.
